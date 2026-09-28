@@ -1,0 +1,11 @@
+label,alias,alias_origin,initial_answer,initial_assessment,supported_misconception,supporting_quote,published_intervention,retry_answer,retry_assessment
+DEMO MODE - synthetic data,Omar,source_example,0 m/s².,incorrect,,,INT-01,9.8 m/s² downward because gravity is still acting.,correct
+DEMO MODE - synthetic data,Lina,source_example,9.8 m/s² downward.,correct,,,INT-01,9.8 m/s² downward; gravity still acts at the top.,correct
+DEMO MODE - synthetic data,Adam,source_example,0 because velocity is zero.,incorrect,ZERO_VELOCITY_ZERO_ACCELERATION,0 because velocity is zero,INT-01,9.8 m/s² downward; the velocity is zero for a moment but gravity keeps changing it.,correct
+DEMO MODE - synthetic data,Sara,source_example,9.8 downward because gravity still acts.,correct,,,INT-01,9.8 m/s² downward because gravity still acts.,correct
+DEMO MODE - synthetic data,Yousef,source_example,9.8 m/s².,partially_correct,,,INT-01,9.8 m/s² downward.,correct
+DEMO MODE - synthetic data,Synthetic-01,synthetic_alias,g downward.,correct,,,INT-01,g downward; gravity does not stop at the top.,correct
+DEMO MODE - synthetic data,Synthetic-02,synthetic_alias,9.8 m/s² downward because gravity is still pulling.,correct,,,INT-01,9.8 m/s² downward because gravity is still pulling.,correct
+DEMO MODE - synthetic data,Synthetic-03,synthetic_alias,Gravity keeps pulling it down at 9.8 m/s².,correct,,,INT-01,Gravity keeps pulling it down at 9.8 m/s².,correct
+DEMO MODE - synthetic data,Synthetic-04,synthetic_alias,"Downward, 9.8 m/s², gravity does not stop.",correct,,,INT-01,"Downward, 9.8 m/s², gravity does not stop.",correct
+DEMO MODE - synthetic data,Synthetic-05,synthetic_alias,The acceleration is zero because it stops for a moment.,incorrect,ZERO_VELOCITY_ZERO_ACCELERATION,zero because it stops for a moment,INT-01,I still think it is 0.,incorrect
